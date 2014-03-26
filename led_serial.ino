@@ -1,4 +1,3 @@
-
 int input;
  
 void setup(){
@@ -20,7 +19,7 @@ void loop(){
  
     } else if(input=='a'){
  
-      digitalWrite(13, LOW); //Si el valor de input es diferente de 1, se apaga el LED
+      digitalWrite(13, LOW); //Si el valor de input es a, se apaga el LED
  
     }
   }
